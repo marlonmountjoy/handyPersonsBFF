@@ -16,7 +16,7 @@ public class HandyPersonGUI // GUI class
         String[] options = {"Add Job", "Add Special Job", "Show Jobs", "Total Hours", "Search", "Exit"}; // define menu
         int choice = 0;
         do // do while loop that checks to make sure the close dialog box button has not been clicked
-        { 																// display menu and get user input
+        { 	// display menu and get user input
             	choice = JOptionPane.showOptionDialog(null, "Select an option:", "HandyPerson Work Tracker", 
                     JOptionPane.DEFAULT_OPTION, JOptionPane.PLAIN_MESSAGE, null, options, options[0]);
 
